@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Accu Weather App</title>
+</head>
+
+<body>
+    <div class="area">
+        <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+
+            <form id="search-form">
+                <input type="search" placeholder="Enter City Name" id="search-input" autocomplete="off" />
+                <br>
+                </br>
+                <button id="search-button">Search</button>
+            </form>
+            <br><br>
+
+            <main id="app-container">
+                <div id="location">
+                    <p>--------</p>
+                </div>
+                <div id="temp">
+                    <img id="temp-icon" src="images/sun.svg" alt="">
+                    <p><span id="temp-value">-------</span> <span id="temp-unit">&#176c</span></p>
+                </div>
+                <div id="climate">
+                    <p>---------</p>
+                </div>
+            </main>
+
+
+            <script src="script.js"></script>
+        </ul>
+    </div>
+</body>
+
+</html>
